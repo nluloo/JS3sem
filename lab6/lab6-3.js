@@ -40,7 +40,7 @@ function filtrDia(dialogs){
     }
 }
 
-const {state : {profilePage : {posts}}} = store
+const {state :{profilePage : { posts}}} = store
 
 printLikes(posts);
 
