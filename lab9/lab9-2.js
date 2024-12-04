@@ -4,6 +4,7 @@ class Human{
         this.lastName = lastName;
         this.birth = birth;
         this.adress = adress;
+        
     }
 
     get age(){
@@ -91,7 +92,7 @@ class Faculty{
         this.numbersGroup = num;
     }
 
-    getDev(){
+        getDev(){
         let count = 0;
         this.students.forEach(element => {
             if(element.number.charAt(1) == 3){
@@ -127,4 +128,5 @@ console.log(fit)
 fit.getGroup(10);
 
 console.log(fit.getDev());
+
 

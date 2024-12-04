@@ -26,8 +26,8 @@ let GreenCircle = {
     _proto_ : Figure
 }
 
-BigCircle.color = "green"
-BigCircle.size = "big"
+GreenCircle.color = "green"
+GreenCircle.size = "big"
 
 let Triangle = {
     _proto_ : Figure,
@@ -50,7 +50,7 @@ ThreeLineTriangle.color = "none"
 ThreeLineTriangle.lines = 3
 ThreeLineTriangle.size = "big"
 
-console.log(SmallYellowSquare.color);
+console.log(GreenCircle.color);
 console.log(ThreeLineTriangle.lines);
 console.log("color" in SmallYellowSquare);
 

@@ -41,8 +41,9 @@ const b = {key : "b"};
 const c = {key: "c"};
 
 console.log(b.toString());
+console.log(c.toString());
 
-a[b] = 123; // Когда мы так пишем, то в квадратных скобках вызывается метод b.toString() => вернет object Object, для c вернет тоже самое, поэтому ключ для данных значений будет object Object
+a[b] = 123; 
 a[c] = 456;
 
 console.log(a[b]);
@@ -74,6 +75,36 @@ multiplay(value);
 
 
 //10
-[1,2,3,4].reduce((x,y) => console.log(x,y));
+[1,2,3,4].reduce((x,y) =>{
+    console.log(x,y)
+    return x;
+} );
 
-// 1 2 |  und 3 | und 4 x - accur
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 1 2 |  und 3 | und 4 x - acc

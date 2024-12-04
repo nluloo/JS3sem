@@ -1,0 +1,63 @@
+*{
+    margin-top: 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+h1{
+    color: rgb(65, 207, 65);
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+button{
+    height: 36px;
+    background-color: rgb(65, 207, 65);
+    color: white;
+    border:none;
+    border-radius: 4px;
+}
+
+div button{
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+#task-container {
+    display: flex;
+    flex-direction: column;
+}
+#task-container div {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 4px;
+    width: 500px;
+    padding-left: 10px;
+    height: 50px;
+}
+p{
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: white;
+    position:absolute;
+    left: 2.5%;
+}
+#Set{
+    margin-left: 250px;
+    background-color: blue;
+}
+#Rem{
+    background-color: red;
+}
+
+#task-container div input{
+    padding: 0;
+    margin: 0;
+    width: 20px;
+    
+}
